@@ -1,1 +1,6 @@
-@import "clrs";
+@import "vars/clrs";
+@import "vars/cubic-beziers";
+
+@import "style/general.scss";
+
+@import "mixins/mixins.scss"
