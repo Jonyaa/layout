@@ -6,4 +6,7 @@ button:active, button:focus, input:focus, input:active {
   outline: none;
   border: none; }
 
+body {
+  background-color: #2ECC40; }
+
 /*# sourceMappingURL=main.css.map */

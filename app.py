@@ -1,4 +1,5 @@
 from flask import Flask, render_template
+import subprocess as sp
 
 
 app = Flask(__name__)
@@ -6,6 +7,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
+    sp.call(["sass", "./style/main.sass", "./static/main.css"])
     return render_template("index.html", title="TITLE")
 
 

@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "AAAA,CAAE;EACE,OAAO,EAAE,CAAC;EACV,MAAM,EAAE,CAAC;;AAGb,sDAAuD;EACnD,OAAO,EAAE,IAAI;EACb,MAAM,EAAE,IAAI",
-"sources": ["../style/premade/style/general.scss"],
+"mappings": "AAAA,CAAE;EACE,OAAO,EAAE,CAAC;EACV,MAAM,EAAE,CAAC;;AAGb,sDAAuD;EACnD,OAAO,EAAE,IAAI;EACb,MAAM,EAAE,IAAI;;ACPhB,IAAI;EACA,gBAAgB,ECIZ,OAAO",
+"sources": ["../style/premade/style/general.scss","../style/site/index.sass","../style/premade/vars/clrs.scss"],
 "names": [],
 "file": "main.css"
 }
